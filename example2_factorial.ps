@@ -1,0 +1,16 @@
+
+# Factorial Pattern Generator
+# Calculates factorial-like sequences
+
+pattern factorial(start) {
+    if (n == 0) {
+        result = 1;
+        print result;
+    } else {
+        result = start * (n + 1);
+        print result;
+    }
+}
+
+# Generate factorial values
+generate factorial(1): 10;
